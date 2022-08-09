@@ -1,0 +1,65 @@
+.HomePage
+{
+    background: #230312;
+    color: white;
+}
+.HomePage-img img
+{
+    height: 100%;
+    width: 100%;
+}
+.HomePage-text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.HomePage-text p
+{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+
+.card
+{
+    transition: transform .2s;
+}
+.card:hover
+{
+    transform: scale(1.1);
+    border: 1px solid;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+
+
+.heading
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.details-img img
+{
+    height: 100%;
+    width: 100%;
+}
+.content
+{
+    /* border: 2px solid red; */
+    border-bottom: 2px solid black;
+}
+.content h3
+{   
+    margin-right: 10px;
+}
+.content-sec
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
